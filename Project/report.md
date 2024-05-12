@@ -7,14 +7,12 @@ Minhaj Uddin 21K-3074<br>
 
 ## This project is a hospital management system. 
 <br>
-<br>
 
 ## project proposal:
-<p>the idea was to create a program that can cater to the needs of both management staff and the people coming to the<br>
+<p>The idea was to create a program that can cater to the needs of both management staff and the people coming to the<br>
    airport. A layer of security is to be added to ensure a normal user cant access the admin panel and the data in the<br>
-   file cant be manually changed. In addition to that data recycling functionality was to be added so that any and all<br>
-   records deleted are stored in another recycled file and that data could be deleted later on. Attractive prompt<br>
-   messages to be displayed to make the interface more user friendly and should have enough data manipulation options for<br>
+   file cant be manually changed. Attractive prompt<br> messages to be displayed to make the interface more user
+   friendly and should have enough data manipulation options for<br>
    the management. Hospital Management System (HMS) is a software solution designed to streamline and automate the administrative <br>
    and operational processes within a hospital or healthcare facility. This proposal outlines the key features, objectives, and <br>
    implementation plan for developing an HMS.</p>
@@ -33,6 +31,25 @@ Track inventory levels of medical supplies, equipment, and pharmaceuticals.
 Generate and manage patient bills, invoices, and financial transactions.
 ### Reporting and Analytics: 
 Provide insights into hospital performance, patient demographics, and resource utilization.
+
+## It has 2 main sections:
+
+### admin panel:
+1. uses a password to login to admin panel
+2. can add staff members details and their information to a binary file (so data cant be manually changed from the file)
+3. can view a list of all staff members from a binary file (so data cant be manually changed from the file)
+4. can search for specific staff member using their id number
+5. can edit specific information for staff members that have already been saved to the file
+6. can delete a data from the file and store that data in a recycled file.
+7. can display the list of all the patients added in the user panel and their data (added on sir's behest)
+8. exit the program with a prompt message
+
+### user panel:
+1. Patients can register themselves or be registered by hospital staff and update personal info
+2. View and manage appointments, including scheduling, rescheduling, and canceling appointments.
+3. Access and download medical reports, prescriptions, and discharge summaries.
+4. order products and supplies through the store manager menu for the prescribed meds of the patient
+5. exit the terminal with a attractice designed prompt message.
 
 ## Logic Used:
 ### Object-Oriented Approach:
@@ -72,4 +89,13 @@ Functions are provided to modify and delete records for patients, doctors, nurse
 ### Ordering Products: 
 The store manager can order products and supplies, with functionality to display the ordered items and their bills.
 
-   
+ ## Problems faced:
+ 1. problem that it didnt read the patient id when trying to prescribe a medicine through doctor menu
+ 2. system issue where when we tried to exit the admin system, it didnt go back to the main screen.
+
+## possible improvements:
+1. Implementing a GUI using libraries like Tkinter or PyQt would make the system more user-friendly and visually appealing.<br>
+This would allow users to interact with the system through buttons, text fields, and other graphical elements instead of just the console.
+2. Implement stronger password hashing techniques and encryption methods to enhance security for user authentication.
+3. Enhance error handling mechanisms to provide more informative error messages and guide users in resolving issues effectively.
+4. Implement search and filtering capabilities to allow users to easily find specific records based on criteria such as patient ID, doctor name, or appointment date.
