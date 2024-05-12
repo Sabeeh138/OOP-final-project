@@ -4,6 +4,7 @@
 
 
 ## This project is a hospital management system.
+</p>
 
 ## project proposal:
 <p>the idea was to create a program that can cater to the needs of both management staff and the people coming to the<br>
