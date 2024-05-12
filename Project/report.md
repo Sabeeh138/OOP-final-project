@@ -1,10 +1,12 @@
 # PF-final-project
 ## made by:
-
-
+Muhammad Sabeeh 23K-0002
+Syed Huzaifa Ali 23k-0004
+Areeb Hussain 22K-4042
+Minhaj Uddin 21K-3074
 
 ## This project is a hospital management system.
-</p>
+
 
 ## project proposal:
 <p>the idea was to create a program that can cater to the needs of both management staff and the people coming to the<br>
